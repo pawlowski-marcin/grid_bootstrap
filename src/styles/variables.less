@@ -1,0 +1,37 @@
+@c_fff: #fff;
+@c_000: #000;
+@c_224: #e0e0e0;
+@c_231: #e7e7e7;
+@c_22: #222;
+@c_b9: #b9b9b9;
+@c_0_188_212: #00bcd4;
+@c_trans: transparent;
+@scale_0: scale(0);
+@scale_1: scale(1);
+@absol: absolute;
+@inh: inherit;
+@sto: 100%;
+@u1: 16px;
+
+.border-radius(@radius) {
+	-webkit-border-radius: @radius;
+	-moz-border-radius: @radius;
+	border-radius: @radius;
+}
+.border_tlr(@type) {
+	border-top: @type;
+	border-left: @type;
+	border-right: @type;
+}
+.transform(@paramt) {
+	-webkit-transform: @paramt;
+	-moz-transform: @paramt;
+	-o-transform: @paramt;
+	transform: @paramt;
+}
+.transition(@trans) {
+	-webkit-transition: @trans;
+	-moz-transition: @trans;
+	-o-transition: @trans;
+	transition: @trans;
+}
